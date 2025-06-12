@@ -22,4 +22,10 @@
    ```bash
    node src/index.js
    ```
-5.
+5. **Test using Postman**
+
+- GET `/users`
+- GET `/users/:id`
+- POST `/users`
+- PUT `/users/:id`
+- DELETE `/users/:id`
