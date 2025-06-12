@@ -7,10 +7,19 @@
    npm install
    ```
 2. **Create PostgreSQL database**
+
+```bash
    CREATE TABLE users (
    id SERIAL PRIMARY KEY,
    name VARCHAR(100),
    email VARCHAR(100),
    age INTEGER
    );
-3.
+```
+
+3. **Configure DB credentials in `db.js`**
+4. **Run the server**
+   ```bash
+   node src/index.js
+   ```
+5.
